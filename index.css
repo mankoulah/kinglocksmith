@@ -1,0 +1,1147 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat" sans-serif;
+  overflow-x: hidden;
+}
+
+.img-fluid {
+  width: 50px;
+  margin: -3px, 0px 0px 0px;
+}
+
+span i {
+  margin: 5px 0 0 0;
+}
+
+.content-banner {
+  background-image: url(./img/locksmith-banner.jpg);
+  color: #fff;
+  position: relative;
+  min-height: 400px;
+  height: 100%;
+  background-size: cover;
+  padding: 120px;
+  background-position: center center;
+  height: 100vh;
+}
+
+.content-banner::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(17, 0, 77, 0.5);
+  z-index: 1;
+}
+
+.content-banner .first-title {
+  font-size: 80px;
+  font-weight: 700;
+  font-weight: 400;
+  line-height: 1.2;
+  z-index: 2;
+  position: relative;
+  margin: 12px;
+  margin-top: 150px;
+}
+
+.content-banner .banner-des {
+  font-size: 25px !important;
+  position: relative;
+  font-weight: 400;
+  line-height: 100px;
+  z-index: 2;
+  margin-top: 0;
+}
+
+.banner-btn {
+  background-color: rgb(75, 62, 185);
+  border-radius: 5px;
+  padding: 0;
+  width: 150px;
+  margin: 12px;
+  z-index: 2;
+  color: white;
+  position: relative;
+  line-height: 50px;
+  height: 50px;
+  display: inline-block;
+  transition: 0.3s;
+  text-align: center;
+  text-decoration: none;
+}
+
+.banner-btn:hover {
+  text-decoration: none;
+  background-color: #fff;
+  color: rgb(75, 62, 185);
+}
+
+.header {
+  position: relative;
+  width: 100%;
+}
+
+.inner-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  z-index: 99;
+}
+
+.logo {
+  color: #fff;
+  margin-left: 10px;
+}
+
+.logo img {
+  margin-right: 20px;
+  width: 100px;
+}
+
+.nav-item .nav-link {
+  display: block;
+  font-weight: 400;
+  line-height: 50px;
+  transition: 0.3s;
+  font-size: 16px;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.nav-item .nav-link:hover {
+  color: grey;
+  cursor: pointer;
+}
+
+.tell-num {
+  background-color: rgb(75, 62, 185);
+  border-radius: 20px;
+  padding: 0 25px;
+  border: none;
+  outline: none;
+  margin: 12px;
+  z-index: 2;
+  color: white;
+  position: relative;
+  line-height: 50px;
+  height: 50px;
+  display: inline-block;
+  transition: 0.3s;
+  text-align: center;
+  text-decoration: none;
+}
+
+.tell-num:hover {
+  text-decoration: none;
+  background-color: #fff;
+  color: rgb(75, 62, 185);
+}
+
+.navbar-scroll {
+  background-color: #fff;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+  transition-duration: 0.6s;
+}
+
+.navbar-scroll .nav-item .nav-link {
+  color: black;
+}
+
+.navbar-scroll .header-btn {
+  color: #fff;
+  background-color: grey;
+}
+
+.navbar-scroll .logo {
+  color: #000;
+  font-weight: 500;
+}
+
+.first-title {
+  text-transform: capitalize;
+}
+
+section {
+  padding: 4rem 0rem 4rem;
+  color: #fff;
+}
+
+section:nth-of-type(even) {
+  color: #000;
+}
+
+.navbar-toggler-icon {
+  outline: none;
+  border: none;
+}
+
+p.banner-des {
+  font-size: 20px !important;
+}
+
+p.banner-des span {
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+}
+
+div.text-center.header {
+  margin-bottom: 100px;
+}
+
+section.footer {
+  background-color: rgb(22, 3, 78);
+}
+
+/* pricing.html */
+.home {
+  padding: 0;
+}
+
+.home .carousel-item {
+  height: 100vh;
+}
+
+.home div.banner {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.home .carousel-caption {
+  padding-bottom: 250px;
+  font-family: poppins;
+  z-index: 3;
+}
+
+.home .carousel-caption strong {
+  font-size: 70px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.home .carousel-caption p {
+  font-size: 40px;
+}
+
+.home .carousel-caption a {
+  background-color: rgb(75, 62, 185);
+  border-radius: 25px;
+  padding-top: 0;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  margin: 15px;
+  z-index: 2;
+  color: white;
+  position: relative;
+  line-height: 50px;
+  height: 50px;
+  display: inline-block;
+  transition: 0.3s;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.home .carousel-caption a:hover {
+  text-decoration: none;
+  background-color: #fff;
+  color: rgb(75, 62, 185);
+}
+
+.carousel-control-prev {
+  background-image: none;
+}
+
+.carousel-control-next {
+  background-image: none;
+}
+
+.home .carousel-indicators {
+  z-index: 4;
+}
+
+.home .carousel-indicators button {
+  height: 15px;
+  width: 15px;
+  margin: 10px;
+  background-color: #170097;
+  border-radius: 50%;
+  border: solid 3px transparent;
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s ease all;
+}
+
+.home .carousel-indicators button.active {
+  transform: scale(1.5);
+}
+
+.home .carousel-control-next {
+  z-index: 3;
+  opacity: 1;
+  transform: translateX(100%);
+}
+
+.home .carousel-control-prev {
+  z-index: 3;
+  opacity: 1;
+  transform: translateX(-100%);
+}
+
+.home .carousel-item::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(17, 0, 77, 0.5);
+  z-index: 1;
+}
+
+section.prices {
+  padding: 80px 20px;
+}
+
+.header h1 {
+  color: rgb(36, 120, 134);
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+.header p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.header .call {
+  padding: 0px;
+  width: 150px;
+}
+
+.section-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content-container h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: rgb(36, 120, 134);
+}
+
+.content-container p {
+  font-size: 18px;
+  line-height: 2;
+}
+.section-container .columns {
+  flex: 0 0 auto;
+  width: 50%;
+}
+.section-container .columns.image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.section-container .columns.content .content-container {
+  padding: 40px 50px;
+}
+.section-container .columns.content .content-container h5 {
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.section-container .columns.content .content-container p {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-bottom: 15px;
+}
+
+hr {
+  margin: 100px 0;
+}
+
+/* services */
+.services-container {
+  background-image: url(./img/locksmith-services.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: rgb(248, 246, 246);
+}
+
+.services-container::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(17, 0, 77, 0.4);
+  z-index: 1;
+}
+
+.services-container .service-container {
+  margin: 90px auto;
+  text-align: center;
+}
+
+.services-container p {
+  position: relative;
+  letter-spacing: 1px;
+  z-index: 3;
+}
+
+.service-container p::after {
+  content: "";
+  background: rgb(248, 246, 246);
+  display: block;
+  width: 200px;
+  height: 5px;
+  margin: 10px auto;
+}
+
+.services-container .services-icon {
+  font-size: 40px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  transition: 0.3s ease all;
+}
+
+.services-container .services-icon:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.services-container .service {
+  position: relative;
+  z-index: 3;
+}
+
+.feature-container .text-center {
+  margin-bottom: 60px;
+}
+
+.services {
+  padding: 30px 70px;
+}
+
+.services .header h1 {
+  margin: 0 30px 40px;
+  font-size: 50px;
+  color: rgb(36, 120, 134);
+}
+
+.services .header p {
+  font-size: 16px;
+}
+
+.services h3 {
+  margin: 50px 0;
+  color: rgb(36, 120, 134);
+  font-size: 33px;
+}
+
+.services h4 {
+  margin-bottom: 40px;
+  color: rgb(2, 83, 97);
+  font-size: 28px;
+}
+
+hr {
+  margin: 40px 0;
+  color: rgb(36, 120, 134);
+  padding: 1px;
+}
+
+details {
+  margin: 0 15px;
+}
+
+summary {
+  display: flex;
+  list-style: none;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+summary p {
+  font-size: 12px;
+}
+
+details[open] summary img {
+  transform: rotate(45deg);
+}
+
+img {
+  transition: transform 0.4s ease;
+  margin-left: 30px;
+}
+
+.details-content {
+  padding: 5px 30px;
+}
+
+/* review.html */
+.rev-section {
+  margin: auto;
+  padding: 0 16px;
+  max-width: 90%;
+  text-align: center;
+}
+
+.rev-section .title {
+  font-size: 50px;
+  text-transform: uppercase;
+  color: rgb(75, 62, 185);
+  margin-bottom: 10px;
+}
+
+.rev-section .note {
+  font-size: 30px;
+  color: rgb(2, 83, 97);
+  font-style: italic;
+}
+
+.rev-section .reviews {
+  margin: 35px auto;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+}
+
+.rev-section .head-review {
+  margin: 25px auto;
+  width: 150px;
+  height: 150px;
+}
+
+.rev-section .review {
+  margin: 0 15px;
+  min-width: 300px;
+  flex: 1;
+}
+
+.rev-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+.rev-section .body-review {
+  background-color: rgb(238, 238, 238);
+  padding: 50px;
+  box-shadow: 2px 2px 10px 3px rgb(225, 225, 225);
+  max-width: 600px;
+}
+
+.rev-section .review-name {
+  font-size: 25px;
+  color: rgb(75, 62, 185);
+  margin-bottom: 10px;
+}
+
+.rev-section .desc-review {
+  line-height: 1.8;
+  letter-spacing: 1px;
+  color: rgb(150, 150, 150);
+  font-size: 16px;
+}
+
+/* aboutus.html */
+.container-header {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 100px 0;
+  margin: 0;
+}
+
+.header-text {
+  padding: 20px;
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.header-text h1 {
+  font-size: 55px;
+  color: rgb(75, 62, 185);
+  margin-bottom: 50px;
+}
+
+.header-text p {
+  font-size: 20px;
+  color: rgb(2, 83, 97);
+  text-align: left;
+}
+
+.container-header img {
+  border-radius: 10%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-footer {
+  text-align: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.services {
+  text-align: left;
+  padding: 10px;
+  margin: 10px;
+}
+
+.services ol li {
+  list-style-type: none;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.services h4 {
+  font-size: 30px;
+  color: rgb(36, 120, 134);
+  margin-bottom: 20px;
+}
+
+.contact {
+  text-align: left;
+  padding: 10px;
+  margin: 10px;
+}
+
+.contact ol li {
+  list-style-type: none;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.contact h4 {
+  font-size: 30px;
+  color: rgb(36, 120, 134);
+  margin-bottom: 20px;
+}
+
+.map {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  border-radius: 10%;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+footer h3 {
+  font-size: 40px;
+}
+
+footer p {
+  font-size: 18px;
+}
+
+.socials a {
+  margin: 10px;
+  text-decoration: none;
+  border: none;
+  color: #fff;
+}
+
+.socials a:hover {
+  color: rgb(163, 162, 162);
+}
+
+.footer-bottom a {
+  text-decoration: none;
+  border: none;
+  color: #fff;
+}
+
+.footer-bottom a:hover {
+  color: rgb(163, 162, 162);
+}
+
+@media only screen and (min-width: 1200) {
+  .nav-item > .nav-link {
+    padding: 5px 20px !important;
+    display: block !important;
+  }
+
+  div.container-header .about-img {
+    width: 100px !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .inner-header {
+    background-color: white !important;
+  }
+  .nav-item > .nav-link {
+    color: black !important;
+  }
+  .logo {
+    color: black !important;
+    font-weight: 600 !important;
+  }
+  .content-banner .first-title {
+    font-size: 30px !important;
+  }
+
+  html {
+    overflow-x: hidden;
+  }
+
+  /* aboutus.html */
+  .header-text h1 {
+    font-size: 50px;
+    margin-bottom: 40px;
+  }
+
+  .container-header img {
+    border-radius: 10%;
+    width: 70%;
+    height: 350px;
+  }
+
+  .header-text {
+    padding: 10px;
+    margin: 20px;
+  }
+
+  .container-header {
+    flex-direction: column;
+    padding: 50px 0;
+  }
+
+  /* prices */
+  .carousel-item .carousel-caption strong {
+    font-size: 45px;
+  }
+
+  .carousel-item .carousel-caption p {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 750px) {
+  .section-container {
+    flex-flow: row wrap;
+  }
+  .section-container .columns.image {
+    display: block;
+    order: 1;
+    width: 100%;
+    height: 250px;
+  }
+  .section-container .columns.content {
+    display: block;
+    order: 2;
+    width: 100%;
+  }
+  .section-container .columns.content .content-container {
+    padding: 20px 35px;
+  }
+  .section-container .columns.content .content-container h5 {
+    margin-bottom: 5px;
+  }
+
+  div.text-center.header h1 {
+    font-size: 30px;
+  }
+
+  div.text-center.header p {
+    font-size: 18px;
+  }
+
+  /* review.html */
+  .testimonial-heading h1 {
+    font-size: 40px;
+  }
+
+  .testimonial-heading span {
+    font-size: 25px;
+  }
+
+  /* services.html */
+  .content-banner .first-title {
+    font-size: 35px;
+  }
+
+  .services .header h1 {
+    font-size: 28px;
+  }
+
+  .services .header p {
+    font-size: 15px;
+  }
+
+  .services h3 {
+    font-size: 25px;
+  }
+
+  .services h4 {
+    font-size: 23px;
+  }
+
+  summary {
+    font-size: 15px;
+  }
+
+  .details-content p {
+    font-size: 15px;
+  }
+
+  .services-container .services-icon {
+    font-size: 20px;
+    border: none;
+    width: 70px;
+    height: 40px;
+  }
+
+  /* aboutus.html */
+  .header-text h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+
+  .container-header img {
+    border-radius: 10%;
+    width: 90%;
+  }
+
+  .header-text {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .testimonials h1 {
+    font-size: 30px;
+  }
+
+  .services ol li {
+    list-style-type: none;
+    font-size: 15px;
+    margin: 10px;
+  }
+
+  .services h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .contact ol li {
+    list-style-type: none;
+    font-size: 15px;
+    margin: 10px;
+  }
+
+  .contact h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .about-footer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 340px) {
+  .logo {
+    margin-left: 5px;
+  }
+
+  .logo img {
+    width: 60px;
+  }
+
+  a.banner-btn {
+    padding: 0 2px;
+    margin: 0;
+    border-radius: 10%;
+    width: 100px;
+  }
+
+  .banner-con .first-title {
+    justify-content: center;
+  }
+
+  .banner-con a.banner-btn {
+    align-items: center;
+  }
+
+  section.content-banner {
+    padding: 150px 0;
+    margin: 0;
+  }
+
+  .content-banner .first-title {
+    font-size: 40px;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+  }
+
+  .content-banner .banner-des {
+    font-weight: 150;
+    line-height: 1.2;
+  }
+  .home .carousel-indicators button {
+    height: 40px;
+    width: 40px;
+  }
+
+  .carousel-container {
+    bottom: 20%;
+  }
+
+  .home .carousel-control {
+    bottom: 10px;
+  }
+
+  .home .carousel-item h2 {
+    font-size: 30px;
+  }
+
+  .home .carousel-item p {
+    font-size: 15px;
+  }
+
+  ul.socials a {
+    margin: 3px;
+  }
+
+  ul.socials {
+    padding: 0;
+  }
+
+  .header h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  .header p {
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+
+  .header .call {
+    width: 50%;
+  }
+
+  /* reviews.html */
+  a.banner-btn:nth-of-type(1) {
+    width: 70%;
+  }
+
+  .testimonial-heading h1 {
+    font-size: 25px;
+  }
+
+  .testimonial-heading span {
+    font-size: 18px;
+  }
+
+  .testimonial {
+    padding: 10px;
+  }
+
+  .testimonial img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+
+  .name {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 10px 0;
+  }
+
+  .stars {
+    margin-bottom: 10px;
+  }
+
+  .testimonial p {
+    font-size: 18px;
+  }
+
+  .testimonials {
+    height: 570px;
+  }
+
+  .rev-section .title {
+    font-size: 30px;
+  }
+
+  .rev-section .note {
+    font-size: 20px;
+  }
+
+  .rev-section .head-review {
+    margin: 15px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .rev-section .review {
+    margin: 0 15px;
+    min-width: 300px;
+    flex: 1;
+  }
+
+  .rev-section .body-review {
+    background-color: rgb(238, 238, 238);
+    padding: 30px;
+    box-shadow: 2px 2px 10px 3px rgb(225, 225, 225);
+    max-width: 250px;
+  }
+
+  .rev-section .review-name {
+    font-size: 20px;
+    color: rgb(75, 62, 185);
+    margin-bottom: 10px;
+  }
+
+  .rev-section .desc-review {
+    line-height: 1.5;
+    font-size: 14px;
+  }
+
+  /* services.html */
+  section.services {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .services .header h1 {
+    font-size: 25px !important;
+  }
+
+  .services .header p {
+    font-size: 18px !important;
+  }
+
+  /* aboutus.html */
+  .header-text h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+  .container-header img {
+    border-radius: 10%;
+    width: 200px;
+    height: 200px;
+  }
+
+  .header-text {
+    padding: 5px;
+    margin: 5px;
+  }
+
+  .header-text p {
+    font-size: 16px;
+  }
+
+  .testimonials h1 {
+    font-size: 20 px;
+  }
+
+  .testimonial .name {
+    font-size: 18px;
+  }
+
+  .testimonial p {
+    font-size: 15px;
+  }
+
+  .services ol li {
+    list-style-type: none;
+    font-size: 15px;
+    margin: 10px;
+  }
+
+  .services h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .contact ol li {
+    list-style-type: none;
+    font-size: 15px;
+    margin: 10px;
+  }
+
+  .contact h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .services-container .services-icon {
+    font-size: 15px;
+    border: none;
+    width: 70px;
+    height: 20px;
+  }
+
+  .service-container p {
+    font-size: 30px !important;
+    margin: 00px;
+  }
+
+  .carousel-item .carousel-caption strong {
+    font-size: 30px;
+  }
+
+  .carousel-item .carousel-caption p {
+    font-size: 20px;
+  }
+}
